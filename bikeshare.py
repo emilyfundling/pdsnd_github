@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 #unnecessary comment line
 
+||||||| c5db7e5
+=======
+#Do bike tires need snow chains?
+>>>>>>> refactoring
 import time
 import pandas as pd
 import numpy as np
@@ -8,6 +13,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york': 'new_york_city.csv',
               'washington': 'washington.csv' }
 months = ['january', 'february', 'march', 'april', 'may', 'june']
+#FUN FACT: These are the actual names for days of the week. :O
 days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
 
 
@@ -152,7 +158,7 @@ def raw_data_check(city, df):
         elif check == 'no':
             break
         else:
-            print('That\'s not a valid entry. Please try again. \n')
+            print('That\'s not a valid entry. Quit goofing around. \n')
             
             
 def main():
