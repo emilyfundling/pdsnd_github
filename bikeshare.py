@@ -150,7 +150,7 @@ def raw_data_check(city, df):
         elif check == 'no':
             break
         else:
-            print('That\'s not a valid entry. Please try again. \n')
+            print('That\'s not a valid entry. Quit goofing around. \n')
             
             
 def main():
